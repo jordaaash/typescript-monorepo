@@ -16,5 +16,10 @@
         "isolatedModules": true,
         "noEmit": true,
         "jsx": "react-jsx"
-    }
+    },
+    "references": [
+        {
+            "path": "../../ui/react"
+        }
+    ]
 }
