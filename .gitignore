@@ -1,0 +1,15 @@
+.idea
+.vscode
+.DS_Store
+
+node_modules
+
+package-lock.json
+yarn.lock
+
+.parcel-cache
+lib
+build
+dist
+out
+*.tsbuildinfo
