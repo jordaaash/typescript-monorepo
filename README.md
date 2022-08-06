@@ -64,6 +64,6 @@ cd packages/app/create-react-app
 pnpm start
 ```
 
-A basic CRA app will now be running. Go change the file [`packages/core/base/src/utils.ts`](./packages/core/base/src/utils.ts). This file is used by the file [`packages/ui/react/src/HelloWorld.tsx`](./packages/ui/react/src/HelloWorld.tsx), which is used by the CRA app.
+A basic CRA app will now be running. Go change the file [`packages/core/base/src/helloWorld.ts`](./packages/core/base/src/helloWorld.ts). This file is used by the file [`packages/ui/react/src/HelloWorld.tsx`](./packages/ui/react/src/HelloWorld.tsx), which is used by the CRA app.
 
 Change the string `'Hello, world!'` to some other string, and save the file. The CRA app should update automatically, reflecting this deeply nested change.
