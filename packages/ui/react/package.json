@@ -5,11 +5,13 @@
     "license": "Apache-2.0",
     "type": "module",
     "sideEffects": false,
-    "main": "./lib/cjs/src/index.js",
-    "module": "./lib/esm/src/index.js",
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "types": "./lib/types/index.d.ts",
     "exports": {
-        "import": "./lib/esm/src/index.js",
-        "require": "./lib/cjs/src/index.js"
+        "import": "./lib/esm/index.js",
+        "require": "./lib/cjs/index.js",
+        "types": "./lib/types/index.d.ts"
     },
     "files": [
         "lib",
