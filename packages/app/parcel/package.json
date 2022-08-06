@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "name": "typescript-monorepo-parcel",
+    "version": "0.1.0",
+    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "repository": "https://github.com/solana-labs/wallet-standard",
+    "license": "Apache-2.0",
+    "scripts": {
+        "clean": "shx mkdir -p dist .parcel-cache && shx rm -rf dist .parcel-cache",
+        "prebuild": "pnpm run clean",
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "typescript-monorepo-react": "workspace:^"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "parcel": "^2.3.2",
+        "process": "^0.11.10",
+        "shx": "^0.3.4"
+    }
+}
