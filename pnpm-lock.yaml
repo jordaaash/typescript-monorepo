@@ -4,6 +4,7 @@ importers:
 
   .:
     specifiers:
+      '@types/node': ^18.6.4
       '@typescript-eslint/eslint-plugin': ^5.32.0
       '@typescript-eslint/parser': ^5.32.0
       eslint: ^8.20.0
@@ -14,6 +15,7 @@ importers:
       shx: ^0.3.4
       typescript: ^4.7.4
     devDependencies:
+      '@types/node': 18.6.4
       '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
       '@typescript-eslint/parser': 5.32.0_qugx7qdu5zevzvxaiqyxfiwquq
       eslint: 8.21.0
@@ -3298,6 +3300,10 @@ packages:
   /@types/node/16.11.47:
     resolution: {integrity: sha512-fpP+jk2zJ4VW66+wAMFoBJlx1bxmBKx4DUFf68UHgdGCOuyUTDlLWqsaNPJh7xhNDykyJ9eIzAygilP/4WoN8g==}
     dev: false
+
+  /@types/node/18.6.4:
+    resolution: {integrity: sha512-I4BD3L+6AWiUobfxZ49DlU43gtI+FTHSv9pE2Zekg6KjMpre4ByusaljW3vYSLJrvQ1ck1hUaeVu8HVlY3vzHg==}
+    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
