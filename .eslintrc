@@ -3,10 +3,34 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:require-extensions/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "prettier",
+        "react",
+        "react-hooks",
+        "require-extensions"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+    },
+    "overrides": [
+        {
+            "files": [
+                "packages/app/**/*"
+            ],
+            "rules": {
+                "require-extensions/require-extensions": "off"
+            }
+        }
     ]
 }
